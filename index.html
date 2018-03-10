@@ -1,101 +1,102 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="sv">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Stirra Film</title>
-    <meta name="description" content="">
+    <meta name="description" content="Editor and film maker Max Eriksson">
+    <meta name="keywords" content="Max, Eriksson, Stockholm, klippare, dokumentär, filmskapare">
+    <meta name="author" content="Nerdmanship">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <!-- <link rel="apple-touch-icon" href="icon.png"> -->
+    <link rel="apple-touch-icon" href="icon.png">
     <style type="text/css">
-        body {
-            margin: 0;
-            background: #000;
-        }
+    body {
+        margin: 0;
+        background: #000;
+    }
 
-        video {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -100;
-            -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
-            background: black;
-            -webkit-transition: 1s opacity;
-            transition: 1s opacity;
-        }
+    video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: black;
+        -webkit-transition: 1s opacity;
+        transition: 1s opacity;
+    }
 
-        #container {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
-            min-width: 300px;
-            width: 70%;
-            z-index: 1;
-        }
+    #container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 300px;
+        width: 70%;
+        z-index: 1;
+    }
 
-        #logo {
-            position: relative;
-            width: 100%;
-        }
+    #logo {
+        position: relative;
+        width: 100%;
+    }
 
-        #logo svg {
-            fill: rgba(255, 255, 255, 0.9);
-        }
+    #logo svg {
+        fill: rgba(255, 255, 255, 0.9);
+    }
 
-        #card {
-            position: relative;
-            font-family: Courier, sans-serif;
-            border-right: 5px solid rgba(255, 255, 255, 0.9);
-        }
+    #card {
+        position: relative;
+        font-family: Courier, sans-serif;
+        border-right: 5px solid rgba(255, 255, 255, 0.9);
+    }
 
-        #card ul {
-            list-style: none;
-            padding: 0;
-            padding-right: 10px;
-            text-align: right;
-            text-transform: uppercase;
-            font-size: 1.3em;
-            letter-spacing: 1px;
-            margin: 0;
-            color: rgba(255, 255, 255, 0.9);
-        }
+    #card ul {
+        list-style: none;
+        padding: 0;
+        padding-right: 10px;
+        text-align: right;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.9);
+    }
 
-        #card ul a {
-            color: rgba(255, 255, 255, 0.9);
-            text-decoration: none;
-        }
+    #card ul a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+    }
 
-        #card ul a:hover {
-            color: white;
-            text-decoration: line-through;
-        }
+    #card ul a:hover {
+        color: white;
+        text-decoration: line-through;
+    }
 
-        #card ul li:first-child {
-            font-weight: bold;
-        }
+    #card ul li:first-child {
+        font-weight: bold;
+    }
 
-        #card ul li:nth-child(2) a {
-            cursor: default;
-            color: rgba(255, 255, 255, 0.6);
-        }
+    #card ul li:nth-child(2) a {
+        cursor: default;
+        color: rgba(255, 255, 255, 0.6);
+    }
 
-        #card ul li:nth-child(2) a:hover {
-            color: rgba(255, 255, 255, 0.6);
-            text-decoration: none;
-        }
+    #card ul li:nth-child(2) a:hover {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+    }
 
-        #card ul li:last-child {
-            padding-bottom: 0;
-        }
+    #card ul li:last-child {
+        padding-bottom: 0;
+    }
     </style>
 </head>
 
@@ -127,6 +128,9 @@
         document.getElementById( "bgvid" ).removeAttribute( "autoplay" );
         document.getElementById( "bgvid" ).pause();
     }
+    console.log( "%c  NERDMANSHIP  ", 'background: #000; color: #FF00FF' );
+    console.log( "%c Get your own simple full screen video site ", 'background: #000; color: #00FFFF' );
+    console.log( "%c johan@nerdmanship.com ", 'background: #000; color: #00FFFF' );
     </script>
 </body>
 
