@@ -9,10 +9,11 @@
 	],
 "creatorBuild": "26268",
 "files": {
-	"\/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/dist\/dist",
+	"\/src\/assets\/train.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/train.mp4",
 		"oF": 0
 		},
 	"\/src\/favicon.ico": {
@@ -39,29 +40,6 @@
 		"oA": 0,
 		"oAP": "\/dist\/index.html",
 		"oF": 0
-		},
-	"\/src\/js\/index.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/dist\/js\/index.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 1
-		},
-	"\/src\/scss\/index.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/css\/index.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
 		}
 	},
 "hooks": [
@@ -73,7 +51,7 @@
 	"displayValue": "stirra",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 541433651
+	"lastBuiltDate": 542364829
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
