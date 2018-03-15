@@ -39,7 +39,7 @@
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%);
         min-width: 300px;
-        width: 70%;
+        width: 75%;
         z-index: 1;
     }
 
@@ -54,18 +54,16 @@
 
     #card {
         position: relative;
-        font-family: Courier, sans-serif;
-        border-right: 5px solid rgba(255, 255, 255, 0.9);
+        font-family: "Courier New", Courier, sans-serif;
     }
 
     #card ul {
         list-style: none;
         padding: 0;
-        padding-right: 10px;
         text-align: right;
         text-transform: uppercase;
         font-size: 1.3em;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         margin: 0;
         color: rgba(255, 255, 255, 0.9);
     }
@@ -73,16 +71,41 @@
     #card ul a {
         color: rgba(255, 255, 255, 0.9);
         text-decoration: none;
+        border-right: 5px solid rgba(255, 255, 255, 0.75);
+        padding-right: 10px;
     }
 
     #card ul a:hover {
+        border-right: 5px solid rgba(255, 255, 255, 1);
         color: white;
         text-decoration: line-through;
     }
 
+    #card ul li {
+        padding-right: 4px;
+    }
+
     #card ul li:first-child {
         font-weight: bold;
+        /*font-size: 1.3em;*/
+        margin-bottom: 1rem;
+        /*border-bottom: 5px solid rgba(255, 255, 255, 0.9);*/
+        border-right: none;
     }
+
+    @media not screen and (-webkit-min-device-pixel-ratio: 2),
+    not screen and ( min--moz-device-pixel-ratio: 2),
+    not screen and ( -o-min-device-pixel-ratio: 2/1),
+    not screen and ( min-device-pixel-ratio: 2),
+    not screen and ( min-resolution: 192dpi),
+    not screen and ( min-resolution: 2dppx) {
+
+        #card ul li:first-child {
+            font-weight: normal;
+        }
+    }
+
+    #card ul li:nth-child(2) {}
 
     #card ul li:nth-child(2) a {
         cursor: default;
@@ -92,6 +115,7 @@
     #card ul li:nth-child(2) a:hover {
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
+        border-right: 5px solid rgba(255, 255, 255, 0.75);
     }
 
     #card ul li:last-child {
@@ -116,10 +140,10 @@
         <div id="card">
             <ul>
                 <li>Max Eriksson</li>
-                <li><a href="#">Showreel</a></li>
-                <li><a href="http://www.imdb.com/name/nm5860196/">Filmography</a></li>
-                <li><a href="mailto:max@stirrafilm.com">max@stirrafilm.com</a></li>
-                <li><a href="tel:+46707445277">+46(0)707445277</a></li>
+                <li><a href="#" target="_blank">Showreel</a></li>
+                <li><a href="http://www.imdb.com/name/nm5860196/" target="_blank">Filmography</a></li>
+                <li><a href="mailto:max@stirrafilm.com" target="_blank">max@stirrafilm.com</a></li>
+                <li><a href="tel:+46707445277" target="_blank">+46(0)707445277</a></li>
             </ul>
         </div>
     </div>
@@ -132,6 +156,6 @@
     console.log( "%c Get your own simple full screen video site ", 'background: #000; color: #00FFFF' );
     console.log( "%c johan@nerdmanship.com ", 'background: #000; color: #00FFFF' );
     </script>
-</body>
+    </body>
 
 </html>
